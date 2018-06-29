@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\imu_ekf.o"
+".\objects\fastmath.o"
+".\objects\matrix.o"
+".\objects\quaternion.o"
+".\objects\led.o"
+".\objects\mpu9250.o"
+".\objects\usart.o"
+".\objects\epromdata.o"
+".\objects\timer.o"
+".\objects\ioi2c.o"
+".\objects\delay.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Lib\ARM\arm_cortexM3l_math.lib"
+".\objects\misc.o"
+".\objects\stm32f10x_flash.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_i2c.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\gpio_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\IMU_M3.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\IMU_M3.map" -o .\Objects\IMU_M3.axf

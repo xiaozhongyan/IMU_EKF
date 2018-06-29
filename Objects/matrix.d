@@ -1,0 +1,12 @@
+.\objects\matrix.o: Math\Matrix.c
+.\objects\matrix.o: Math\Matrix.h
+.\objects\matrix.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\arm_math.h
+.\objects\matrix.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h
+.\objects\matrix.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\matrix.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+.\objects\matrix.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+.\objects\matrix.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+.\objects\matrix.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\matrix.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\matrix.o: Math\FastMath.h
+.\objects\matrix.o: Math\Double.h
